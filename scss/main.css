@@ -1,0 +1,42 @@
+header {
+  height: 56px;
+}
+
+.container .left a {
+  text-decoration: none;
+}
+
+.right .number {
+  width: 24px;
+  height: 24px;
+  padding: 5px;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.cart:hover {
+  background-color: black !important;
+  transition: 0.5s;
+}
+.cart:hover span {
+  color: white !important;
+}
+.cart:hover i {
+  color: white;
+}
+
+.no-hover:hover {
+  background-color: transparent !important;
+  color: initial !important;
+}
+
+.box:hover {
+  background-color: #292b2c !important;
+  transition: 0.5s;
+}
+.box:hover span {
+  color: white !important;
+}/*# sourceMappingURL=main.css.map */
